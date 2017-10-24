@@ -504,7 +504,7 @@ h2
 background-size: 70%;
 }
 
-@media screen and (min-width:60em) {
+@media screen and (min-width:68em) {
 .leftSideBar, .rightSideBar {display:none}
 background-size: 80%;
 }
