@@ -454,7 +454,7 @@ body
   background-attachment: fixed;
   background-position: center top;
   font-family: 'Times New Roman', sans-serif;
-  color: #800000;
+  color: #000000;
   margin: auto;
   width: 60%;
   padding: .50em;
@@ -463,9 +463,9 @@ body
 
 #bodyspecs
 {
-  margin: .5em;
-  border: .25em solid #98FB98;
-  background-color: #FDF5E6;
+  /*margin: .5em;*/
+  border: .25em solid rgba(185, 150, 54, 0.993);
+  background-color: rgb(240, 239, 239);
 }
 
 #center
@@ -477,27 +477,17 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
+  /*overflow: scroll;*/
   /*position: relative;*/
 }
 
-h1 
-{
-  color: #191970;
-  text-align: left;
-}
 
 h2
 {
-  color: #4682B4;
+  color: rgba(185, 150, 54, 0.993);
   text-align: left;
 }
 
-h3
-{
-  color: #00008B;
-  text-align: left;
-}
 
 @media screen and (min-width:45em) {
 .leftSideBar, .rightSideBar {display:none}
