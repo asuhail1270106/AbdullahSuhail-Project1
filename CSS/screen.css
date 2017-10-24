@@ -455,7 +455,7 @@ body
   background-attachment: fixed;
   background-position: center top;
   font-family: Garamond, Verdana, 'Times New Roman', sans-serif;
-  color: rgba(185, 150, 54, 0.993);
+  color: rgba(255, 215, 0, 0.993);
   margin: auto;
   width: 60%;
   padding: .50em;
@@ -466,7 +466,7 @@ body
 #bodyspecs
 {
   /*margin: .5em;*/
-  border: .25em solid rgba(185, 150, 54, 0.993);
+  border: .25em solid rgba(255, 215, 0, 0.993);
   background-color: rgb(0, 0, 0);
 }
 
@@ -493,7 +493,7 @@ body
 
 h2
 {
-  color: rgba(185, 150, 54, 0.993);
+  color: rgba(255, 215, 0, 0.993);
   font-size: 1.3em;
   text-align: center;
 }
