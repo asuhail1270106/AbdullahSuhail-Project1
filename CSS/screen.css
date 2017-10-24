@@ -454,13 +454,13 @@ body
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
-  font-family: 'Times New Roman', sans-serif;
+  font-family: Garamond, Verdana, 'Times New Roman', sans-serif;
   color: rgba(185, 150, 54, 0.993);
   margin: auto;
   width: 60%;
   padding: .50em;
-  font-size: 1.0em;
-  line-height: 1.5;
+  font-size: 1.3em;
+  line-height: 1.2; /* Used a scale of 1.2 to build line height*/
 }
 
 #bodyspecs
@@ -494,7 +494,8 @@ body
 h2
 {
   color: rgba(185, 150, 54, 0.993);
-  text-align: left;
+  font-size: 1.3em;
+  text-align: center;
 }
 
 
