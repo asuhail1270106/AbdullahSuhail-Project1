@@ -499,9 +499,12 @@ h2
 @media only screen and (min-width:45em) 
 {
 .leftSideBar, .rightSideBar {display:none}
+
+body {max-width: 100;}
 }
 
 @media only screen and (min-width:68em) 
 {  
 .leftSideBar, .rightSideBar {display:none}
+body {max-width: 100;}
 }
