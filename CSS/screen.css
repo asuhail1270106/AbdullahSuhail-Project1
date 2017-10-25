@@ -454,7 +454,7 @@ body
   font-family: Garamond, Verdana, 'Times New Roman', sans-serif;
   color: rgba(255, 215, 0, 0.993);
   margin: auto;
-  width: auto;
+  width: 60%;
   padding: .50em;
   font-size: 1.3em;
   line-height: 1.2; /* Used a scale of 1.2 to build line height*/
@@ -474,7 +474,6 @@ fieldset
 
 #center
 {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -499,7 +498,6 @@ h2
 @media only screen and (min-width:45em) 
 {
 .leftSideBar, .rightSideBar {display:none}
-
 body {max-width: 100;}
 }
 
