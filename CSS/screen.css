@@ -474,6 +474,7 @@ fieldset
 
 #center
 {
+  display: inline;
   justify-content: center;
   align-items: center;
   margin: auto;
