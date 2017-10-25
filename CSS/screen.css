@@ -458,7 +458,7 @@ body
   padding: .50em;
   font-size: 1.3em;
   line-height: 1.2; /* Used a scale of 1.2 to build line height*/
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #bodyspecs
@@ -470,7 +470,7 @@ body
 
 #center
 {
-  position: fixed;
+  position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -497,10 +497,8 @@ h2
 
 @media only screen and (min-width:45em) {
 .leftSideBar, .rightSideBar {display:none}
-h2 { font-size: 1.0em; }
 }
 
 @media only screen and (min-width:68em) {  
 .leftSideBar, .rightSideBar {display:none}
-h2 { font-size: .95em; }
 }
