@@ -458,7 +458,6 @@ body
   padding: .50em;
   font-size: 1.3em;
   line-height: 1.2; /* Used a scale of 1.2 to build line height*/
-  overflow: auto;
 }
 
 #bodyspecs
