@@ -454,11 +454,11 @@ body
   font-family: Garamond, Verdana, 'Times New Roman', sans-serif;
   color: rgba(255, 215, 0, 0.993);
   margin: auto;
-  width: 60%;
+  width: 50%;
   padding: .50em;
   font-size: 1.3em;
   line-height: 1.2; /* Used a scale of 1.2 to build line height*/
-  overflow: scroll;
+  overflow: auto;
 }
 
 #bodyspecs
@@ -468,22 +468,22 @@ body
   background-color: rgb(0, 0, 0);
 }
 
-#center
+fieldset 
 {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 0;
 }
 
-#formcenter
+#center
 {
+  overflow:hidden;
   margin: auto;
   text-align: center;
-  display:inline-block;
+}
+
+img 
+{
+  display: block;
+  margin: 0 auto;
 }
 
 
@@ -495,10 +495,12 @@ h2
 }
 
 
-@media only screen and (min-width:45em) {
+@media only screen and (min-width:45em) 
+{
 .leftSideBar, .rightSideBar {display:none}
 }
 
-@media only screen and (min-width:68em) {  
+@media only screen and (min-width:68em) 
+{  
 .leftSideBar, .rightSideBar {display:none}
 }
